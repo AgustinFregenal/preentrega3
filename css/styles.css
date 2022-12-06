@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Anton", sans-serif;
+  color: black;
+  background-image: linear-gradient(to top, #603e70, #63467c, #654e88, #665795, #6660a1, #6271b1, #5f82c0, #5c92cc, #63adda, #78c7e3, #97dfec, #bcf7f6);
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.navbar-dark {
+  font-size: 1.5rem;
+  background-color: black; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: white; }
+  .navbar-dark .navbar-nav .nav-link:focus {
+    color: white; }
+
+.navcolor {
+  background-color: black; }
+
+.card {
+  background-color: white; }
+  .card img {
+    width: 100%;
+    height: 240px; }
+
+a {
+  text-decoration: none; }
+  a img {
+    width: 100%; }
+
+h2 {
+  color: black; }
+
+h3 {
+  color: black; }
+
+h1 {
+  font-size: 5rem; }
+
+.parrafo {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 10px; }
+
+.btn-outline-light {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.55); }
+
+.text-white-55 {
+  color: rgba(255, 255, 255, 0.55); }
+
+.img-holder {
+  overflow: hidden; }
+  .img-holder img {
+    transition: all 1.5s ease; }
+  .img-holder:hover img {
+    transform: scale(1.5); }
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857; }
+
+.galeria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.btn-dark {
+  background-color: black; }

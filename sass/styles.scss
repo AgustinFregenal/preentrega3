@@ -1,0 +1,84 @@
+@import "variables";
+@import "reset";
+@import "body";
+@import "header";
+
+
+.navcolor {
+    background-color: $color-negro;
+}
+ 
+.card {
+    background-color: $color-blanco;
+    img {
+        width: $ancho-100;
+        height: 240px;
+    }
+}
+
+a {
+    text-decoration: none;
+    img {
+        width: $ancho-100;
+    }
+}
+
+h2 {
+    color: $color-negro;
+}
+
+h3 {
+    color: $color-negro;
+
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.parrafo {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.btn-outline-light {
+    color: $color-gris;
+    border-color: $color-gris;
+}
+
+.text-white-55 {
+   color: $color-gris;
+}
+
+.img-holder {
+    overflow: hidden;
+    img {
+        transition: all 1.5s ease;
+    }
+    &:hover {
+        img {
+            transform: scale(1.5);
+        }
+    }  
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.galeria {
+    width: $ancho-100;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-dark {
+    background-color: $color-negro;
+}

@@ -1,0 +1,10 @@
+body{
+    font-family: $tipografia-general;
+    color: $color-negro;
+    background-image: linear-gradient(to top, #603e70, #63467c, #654e88, #665795, #6660a1, #6271b1, #5f82c0, #5c92cc, #63adda, #78c7e3, #97dfec, #bcf7f6);
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
